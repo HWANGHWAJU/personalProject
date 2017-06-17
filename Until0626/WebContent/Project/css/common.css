@@ -1,0 +1,59 @@
+@CHARSET "utf-8";
+
+html{ padding:0; margin:0;}
+body{ padding:0; margin:0; width:100%; height:100%; border:none 0;}
+h1{padding:0; margin:0;}
+div {padding:0; margin:0;}
+li{list-style: none;}
+a{text-decoration: none; }
+
+.space{height: 30px;}
+
+/*padding:0; magin:0 auto; 가 div영역을 가운데로 놓게 함 */
+.Allbody{ width: 980px; padding:0; margin:0 auto; position:relative;}
+.head{height: 170px;}
+.main{ border:1px solid blue; min-height: 800px; overflow: visible;}
+.foot{height:170px;}
+
+/*include-head.jsp*/
+.top{height: 100px; width:980px; padding:0; margin:0; position: relative; z-index:300;}
+.top .topsidemenu {top: 0px; right: 0px; position: absolute; z-index:800;}
+.top .topsidemenu ul li{float:left;}
+.top .topsidemenu ul li a{font-size:12px;padding-left: 15px; padding-right: 5px;color:black;}
+
+.top .title{top:50px; height: 100px; text-align:center; width: auto; position: relative;}
+.top .title a{color:black;}
+
+
+.mainmenu{height: 70px; padding:0; margin:0 auto;}
+.mainmenu .floatmenu{
+	width:980px; height:70px; 
+	background: #282f35; 
+	border-bottom: 5px solid #c59a6d;
+		}
+.mainmenu .floatmenu ul{top: 100px; padding-left:180px; position: absolute;}
+.mainmenu .floatmenu ul li{float: left;}
+.mainmenu .floatmenu ul li a{font-size: 30px;padding-left: 20px; padding-right: 30px; color:#ffffff;}
+.mainmenu .floatmenu ul li a:HOVER{color:#c59a6d;}
+
+
+/*include-foot.jsp*/
+.foottop{ height: 50px;	width:980px; 
+	background: #282f35;
+	border-top: 5px solid #c59a6d;}
+	
+.foottext {height: 120px; width:980px; padding:0; margin:0 auto;}
+.foottext .underbar{width:980px;}
+.foottext .underbar ul li{float:left; margin-left: 11px; padding-left:11px;}
+.foottext .underbar ul li a{ color:#636363; font-weight: bold; font-size: 10.5px;}
+
+.foottext .address{
+	margin-top: 35px;
+}
+.foottext .address p{
+	margin-left:20px;
+	padding-left:11px;
+	margin-top:20px;
+	font-size:9.5px;
+	line-height: 18px;
+}
