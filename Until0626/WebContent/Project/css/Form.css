@@ -1,5 +1,47 @@
 @CHARSET "utf-8";
 
-.container{padding:0; margin:0; width: 980px;}
-#form{padding:0; margin:0 auto;width:900px; border:1px solid pink;}
+.container{padding:0; margin:0; width: 1100px;}
+#form{padding:0; margin:0 auto;width:1100px;}
+.mainimg{padding:0; margin:0; width:1100px; height: 300px;}
+/*	회원 가입	*/
+.ch_1 p {font-size: 10px;}
+table a{color:black;}
+table a:HOVER{border-bottom: 1px solid #636363;}
+
+/*	로그인 페이지	*/
+.login{padding:0; margin:0; width:900px; height:900px;}
+.login .cover{margin-left:65px;margin-top: 200px;}
+.login .loginform{padding:0; margin:0; width:380px; height: 380px; float:left;}
+
+.login .loginimg{padding:0; margin:0; width:380px; height:380px; float:left;}
+.login .loginimg #formimg{width: 375px; height: 375px;}
+.find table p{font-size: 10px;}
+
+
+/*	Main_Default	*/
+.slide{padding:0; margin:0; width:1100px; height:330px;}
+.default{padding:0; margin:0; width:1100px; height: 850px; border:1px solid green;}
+
+.mdpick{padding:0; margin:0; width:1100px; height:330px;}
+.mdpick p{font-size: 15px;}
+
+/*Menu 1 : 기타*/
+.typeNbrand{width:1100px; height: 250px; background-color: #ECECDF; }
+.typeNbrand .g_list{width:1100px; height: 250px;background-color: rgba(255,255,255,0.5);}
+.typeNbrand .g_list .leftlist{width:300px; height:250px; border-right: 1px solid black;}
+
+.leftlist .typelist{/* border:1px solid red;  */padding-top:30px; padding-left: 30px;}
+.leftlist .typelist ul li{padding-top:15px;}
+.leftlist .typelist ul li a{color:black;font-size:15px; font-style: italic;}
+.leftlist .typelist ul li a:HOVER{font-weight: bold; color:#c59a6d;}
+
+
+
+
+
+
+
+
+
+
 
