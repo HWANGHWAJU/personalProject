@@ -28,12 +28,14 @@ table a:HOVER{border-bottom: 1px solid #636363;}
 /*Menu 1 : 기타*/
 .typeNbrand{width:1100px; height: 250px; background-color: #ECECDF; }
 .typeNbrand .g_list{width:1100px; height: 250px;background-color: rgba(255,255,255,0.5);}
-.typeNbrand .g_list .leftlist{width:300px; height:250px; border-right: 1px solid black;}
 
+.g_list{float:left;}
+.leftlist {float:left;}
 .leftlist .typelist{/* border:1px solid red;  */padding-top:30px; padding-left: 30px;}
 .leftlist .typelist ul li{padding-top:15px;}
 .leftlist .typelist ul li a{color:black;font-size:15px; font-style: italic;}
 .leftlist .typelist ul li a:HOVER{font-weight: bold; color:#c59a6d;}
+
 
 
 

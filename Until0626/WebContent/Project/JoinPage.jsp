@@ -88,14 +88,14 @@
 					</tr>
 					<tr>
 						<td>ADDRESS</td>
-						<td><input type="text" id="postcode" placeholder="우편번호">
+						<td><input type="text" id="postcode" name="postcode" placeholder="우편번호">
 						<input type="button" onclick="execDaumPostcode();" value="우편번호 찾기">
 					</tr>
 					<tr>
 						<td>&nbsp;</td>
 						<td>
-						<input type="text" id="roadAddress" placeholder="도로명주소">
-						<input type="text" id="jibunAddress" placeholder="지번주소">
+						<input type="text" id="roadAddress" name="roadAddress" placeholder="도로명주소">
+						<input type="text" id="jibunAddress" name="jibunAddress" placeholder="지번주소">
 						<span id="guide" style="color:#999"></span></td>
 					</tr>
 					

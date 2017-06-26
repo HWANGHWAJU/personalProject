@@ -46,7 +46,7 @@
 			<li><a href="MainIndex.jsp">HOME</a>
 			<li><a href="#" onclick="Logout()">Logout</a></li>
 			<li><a href="#p">장바구니</a></li>
-			<li><a href="MainIndex.jsp?page=MyPage.jsp">My Page</a></li>
+			<li><a href="MyPage.jsp">My Page</a></li>
 		</ul>
 	<%} %>
 	</div>
