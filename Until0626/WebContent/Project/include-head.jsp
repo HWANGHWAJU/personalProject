@@ -29,7 +29,7 @@
 
 
 	<div class="title">
-		<h1><a href="MainIndex.jsp">Ackki PalJA</a></h1>
+		<h1><a href="MainIndex.jsp">Akki PalJA</a></h1>
 	</div>
 
 	
